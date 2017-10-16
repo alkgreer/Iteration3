@@ -14,12 +14,10 @@
   - Nested Types
   
  **Chapter 9**
-  - 
-  - 
-  - 
-  - 
-  - 
-  -  
+  - Traits
+  - stackable traits
+  - constructing traits
+  - use traits to replace classes when it doesn't behave like a parent in most cases
   
   **Chapter 10**
   - 
