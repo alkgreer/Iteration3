@@ -4,8 +4,7 @@ case class Address(street: String, city: String, state: String, zip: String)
 
 object Address {
   def apply(zip: String) =                                           // <2>
-    new Address(
-      "[unknown]", Address.zipToCity(zip), Address.zipToState(zip), zip)
+    new Address("[unknown]", Address.zipToCity(zip), Address.zipToState(zip), zip)
 
   def zipToCity(zip: String)  = "Anytown"
   def zipToState(zip: String) = "CA"
@@ -34,4 +33,5 @@ case class Employee(                                                 // <6>
   age: Option[Int] = None,                                           // <7>
   address: Option[Address] = None,
   title: String = "[unknown]",
-  manager: Option[Employee] = None) extends PersonState with EmployeeState
+  manager: Option[Employee] = None)
+extends PersonState with EmployeeState
