@@ -20,12 +20,16 @@
   - use traits to replace classes when it doesn't behave like a parent in most cases
   
   **Chapter 10**
-  - 
-  - 
-  - 
-  - 
-  - 
-  -  
+  - Parameterized Types (+T ? extends T, -T ? super T)
+  - Variance of Mutable Types (only invariance allowed no sub or sup types)
+  - Scala Type Hierarchy
+  - Null is a subtype of AnyRef not AnyVal so no null ints
+  - Products are useful in case classes to get fields and elements
+  - Type definitions ( Map, Set, Function)
+  - Condition Checking (assert, assume, require)
+  - Input & Output Methods (print, printf, println, readBoolean readf, readf2, readf3)
+  - Miscellaneous Methods (???, identity, implicityly)
+  - Equality of objects (eq ,ne, sameElements methods)
     
 **Chapter 11**
   - 
