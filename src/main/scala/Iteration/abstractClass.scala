@@ -1,5 +1,4 @@
 package Iteration
-import Iteration._
 
 object Bicycle {
   abstract class Bicycle(val speed: Int, val color: String) {
