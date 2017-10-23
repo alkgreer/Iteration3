@@ -37,6 +37,5 @@
   - Overriding concrete and abstract methods and fields
   - Overriding abstract types
   - Linearization of objects (bind right to left)
-  -  
   
 
