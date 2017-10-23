@@ -32,11 +32,11 @@
   - Equality of objects (eq ,ne, sameElements methods)
     
 **Chapter 11**
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Overriding members of classes and traits (prevents mispelling and member name conflicts)
+  - Don't override concrete members or final declarations
+  - Overriding concrete and abstract methods and fields
+  - Overriding abstract types
+  - Linearization of objects (bind right to left)
   -  
   
 
